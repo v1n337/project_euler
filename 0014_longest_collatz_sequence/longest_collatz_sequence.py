@@ -5,6 +5,7 @@ starting_number = 0
 number_cache = dict()
 start_time = time.time()
 
+
 def generate_collatz_chain(number):
     collatz_chain = [number]
     while number != 1:
